@@ -1,2 +1,2 @@
-# artemiskoltsidaportfolio
+# artemiskoltsida
 artemis koltsida digital portfolio 

@@ -10,11 +10,10 @@ header h1 {
     text-align: center;
     color: #0000FF;
     font-family: "Times New Roman", Times, serif;
-    padding: 12px 0;
+    padding: 16px 0;
     margin: 0;
 }
 
-/* Μενού */
 nav {
     text-align: center;
     background-color: white;
@@ -44,7 +43,7 @@ nav {
     text-decoration: underline;
 }
 
-/* Dropdown */
+/* Dropdown menus */
 .dropdown:hover .submenu {
     display: block;
 }
@@ -74,7 +73,7 @@ nav {
     text-decoration: underline;
 }
 
-/* Endless scroll sections */
+/* Sections */
 main {
     padding: 40px 20px;
     max-width: 900px;
@@ -87,7 +86,7 @@ section {
 }
 
 section h2 {
-    font-size: 28px;
+    font-size: 12px;
     margin-bottom: 20px;
 }
 
@@ -96,7 +95,7 @@ section h2 {
 }
 
 .project h3 {
-    font-size: 22px;
+    font-size: 12px;
     margin-bottom: 5px;
 }
 

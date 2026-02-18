@@ -6,14 +6,15 @@ body {
     padding: 0;
 }
 
+/* Header */
 header h1 {
     text-align: center;
     color: #0000FF;
-    font-family: "Times New Roman", Times, serif;
-    padding: 16px 0;
-    margin: 0;
+    font-size: 16px;  /* Header size */
+    padding: 20px 0;
 }
 
+/* Navigation Menu */
 nav {
     text-align: center;
     background-color: white;
@@ -34,7 +35,7 @@ nav {
 .menu li a {
     text-decoration: none;
     color: black;
-    font-weight: bold;
+    font-size: 12px;  /* Links size */
 }
 
 .menu li a.active,
@@ -43,7 +44,6 @@ nav {
     text-decoration: underline;
 }
 
-/* Dropdown menus */
 .dropdown:hover .submenu {
     display: block;
 }
@@ -65,7 +65,7 @@ nav {
 .submenu li a {
     display: block;
     padding: 10px;
-    color: black;
+    font-size: 12px;  /* dropdown links size */
 }
 
 .submenu li a:hover {
@@ -73,37 +73,36 @@ nav {
     text-decoration: underline;
 }
 
-/* Sections */
-main {
-    padding: 40px 20px;
-    max-width: 900px;
-    margin: auto;
+/* Info Section */
+.info-section {
+    text-align: center;
+    font-size: 12px;   /* smaller for info */
+    padding: 50px 20px;
 }
 
-section {
-    padding: 50px 0;
-    border-bottom: 1px solid #ddd;
+/* Project Sections */
+.analog-projects {
+    text-align: left;
+    font-size: 12px; /* info size */
+    padding: 50px 20px;
 }
 
-section h2 {
-    font-size: 12px;
-    margin-bottom: 20px;
+.digital-projects {
+    text-align: right;
+    font-size: 12px; /* info size */
+    padding: 50px 20px;
 }
 
-.project {
-    margin-bottom: 30px;
+/* Project Titles */
+.analog-projects h2,
+.digital-projects h2 {
+    font-size: 14px;  /* project title size */
+    margin-bottom: 10px;
 }
 
-.project h3 {
-    font-size: 12px;
-    margin-bottom: 5px;
-}
-
-.project p {
-    margin: 5px 0;
-}
-
+/* Links inside projects */
 .project a {
     color: #0000FF;
     text-decoration: underline;
+    font-size: 12px;
 }

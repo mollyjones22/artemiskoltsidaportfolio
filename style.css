@@ -1,4 +1,4 @@
-/* Βασικό στυλ σώματος */
+/* Σώμα και βασικές ρυθμίσεις */
 body {
     font-family: "Times New Roman", Times, serif;
     background-color: white;
@@ -10,7 +10,8 @@ body {
 /* Τίτλος */
 header h1 {
     text-align: center;
-    color: #0000FF; /* μπλε χρώμα */
+    color: #0000FF; /* μπλε */
+    font-family: "Times New Roman", Times, serif;
     padding: 20px 0;
     margin: 0;
 }
@@ -45,7 +46,7 @@ nav {
     text-decoration: underline;
 }
 
-/* Dropdown */
+/* Dropdown menu */
 .dropdown:hover .submenu {
     display: block;
 }
@@ -60,7 +61,7 @@ nav {
     padding: 0;
     margin: 0;
     border: 1px solid #ccc;
-    min-width: 150px;
+    min-width: 220px;
     z-index: 100;
 }
 
@@ -84,4 +85,14 @@ main {
 
 main h2 {
     color: black;
+    font-size: 28px;
+}
+
+main h3 {
+    font-size: 22px;
+    margin-top: 10px;
+}
+
+main p {
+    margin: 5px 0;
 }

@@ -111,10 +111,18 @@ nav {
     font-size: 12px;
 }
 
-.info-section {
-    text-align: center;
-    font-size: 16px;   /* smaller for info */
-    padding: 50px 20px;
+/* PDF links styling */
+.info-pdf a {
+    color: #0000FF;        /* blue */
+    font-size: 12px;       /* same as other info */
+    text-decoration: none;  /* remove underline */
+    font-weight: bold;
+    margin: 5px 0;
+    display: inline-block;
+}
+
+.info-pdf a:hover {
+    text-decoration: underline;
 }
 
 /* Project Sections */

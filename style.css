@@ -1,44 +1,87 @@
+/* Βασικό στυλ σώματος */
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Times New Roman", Times, serif;
+    background-color: white;
+    color: black;
     margin: 0;
     padding: 0;
-    line-height: 1.6;
 }
 
-header {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
-}
-
+/* Τίτλος */
 header h1 {
+    text-align: center;
+    color: #0000FF; /* μπλε χρώμα */
+    padding: 20px 0;
     margin: 0;
 }
 
-header nav a {
-    color: #fff;
+/* Μενού */
+nav {
+    text-align: center;
+    background-color: white;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: inline-flex;
+}
+
+.menu li {
+    position: relative;
     margin: 0 15px;
+}
+
+.menu li a {
     text-decoration: none;
+    color: black;
     font-weight: bold;
 }
 
-header nav a:hover {
+.menu li a.active,
+.menu li a:hover {
+    color: #0000FF; /* μπλε */
     text-decoration: underline;
 }
 
-section {
+/* Dropdown */
+.dropdown:hover .submenu {
+    display: block;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    list-style: none;
+    background: white;
+    padding: 0;
+    margin: 0;
+    border: 1px solid #ccc;
+    min-width: 150px;
+    z-index: 100;
+}
+
+.submenu li a {
+    display: block;
+    padding: 10px;
+    color: black;
+}
+
+.submenu li a:hover {
+    color: #0000FF;
+    text-decoration: underline;
+}
+
+/* Main section */
+main {
     padding: 40px 20px;
     max-width: 800px;
     margin: auto;
 }
 
-section h2 {
-    color: #333;
-}
-
-footer {
-    text-align: center;
-    background-color: #eee;
-    padding: 20px;
+main h2 {
+    color: black;
 }

@@ -11,26 +11,21 @@
     <h1>☼ ARTEMIS KOLTSIDA ☾</h1>
     <nav>
         <ul class="menu">
-            <li class="dropdown" id="analog-dropdown">
-                <a href="#analog" onclick="showMessage('⚛︎ Open the dropdown analog menu for physical art projects. ⚛︎')">Analog ▾</a>
+            <li class="dropdown">
+                <a href="#" onclick="alert('⚛︎ Open the dropdown analog menu for physical art projects. ⚛︎')">Analog ▾</a>
                 <ul class="submenu">
-                    <li><a href="#3dprints" target="_blank">3D Prints</a></li>
-                    <li><a href="#analogphoto" target="_blank">Analog Photography</a></li>
-                    <li><a href="#constructions" target="_blank">Constructions - Installations</a></li>
-                    <li><a href="#paintings" target="_blank">Paintings</a></li>
-                    <li><a href="#silkscreen" target="_blank">Silkscreen Prints</a></li>
-                    <li><a href="#zines" target="_blank">Zines</a></li>
+                    <li><a href="analog/3dprints.html" target="_blank">3D Prints</a></li>
+                    <li><a href="analog/analogphotography.html" target="_blank">Analog Photography</a></li>
+                    <li><a href="analog/paintings.html" target="_blank">Paintings</a></li>
                 </ul>
             </li>
             <li><a href="#info" class="active">Info</a></li>
-            <li class="dropdown" id="digital-dropdown">
-                <a href="#digital" onclick="showMessage('⚝ Open the dropdown digital menu for tech-based art projects. ⚝')">Digital ▾</a>
+            <li class="dropdown">
+                <a href="#" onclick="alert('⚝ Open the dropdown digital menu for tech-based art projects. ⚝')">Digital ▾</a>
                 <ul class="submenu">
-                    <li><a href="#3dvis" target="_blank">3D Visualization</a></li>
-                    <li><a href="#diplomathesis" target="_blank">Architectural Diploma Thesis</a></li>
-                    <li><a href="#digitalphoto" target="_blank">Digital Photography</a></li>
-                    <li><a href="#films" target="_blank">Films</a></li>
-                    <li><a href="#auti" target="_blank">Αυτί</a></li>
+                    <li><a href="digital/3dvisualization.html" target="_blank">3D Visualization</a></li>
+                    <li><a href="digital/digitalphotography.html" target="_blank">Digital Photography</a></li>
+                    <li><a href="digital/films.html" target="_blank">Films</a></li>
                 </ul>
             </li>
         </ul>
@@ -38,64 +33,15 @@
 </header>
 
 <main>
-    <!-- Info Section -->
-    <section id="info">
-        <h2>An Analog to Digital Journey</h2>
-        <h3>Digital Portfolio</h3>
+    <section id="info" class="info-section">
+        <p>An Analog to Digital Journey</p>
+        <p>Digital Portfolio</p>
         <p>Artemis Koltsida</p>
         <p>Alias: Molly, MJ22, Tipomata, StudioAltw.</p>
         <p>Dpl. Architect NTUA​</p>
         <p>Postgrad Student: Information and Communication Technologies for Education – UoA, UTh, UniWA</p>
     </section>
-
-    <!-- Analog Section -->
-    <section id="analog">
-        <h2>Analog Projects</h2>
-
-        <div id="3dprints" class="project">
-            <h3>3D Prints (2025)</h3>
-            <p>Project Description: Example description here.</p>
-            <p>Medias Used: PLA, Resin</p>
-            <p><a href="https://example.com" target="_blank">Link</a></p>
-        </div>
-
-        <div id="analogphoto" class="project">
-            <h3>Analog Photography (2024)</h3>
-            <p>Project Description: Example description.</p>
-            <p>Medias Used: Film, Darkroom</p>
-            <p><a href="https://example.com" target="_blank">Link</a></p>
-        </div>
-
-        <!-- Μπορείς να προσθέσεις και τις υπόλοιπες υποενότητες όπως Constructions, Paintings, κλπ -->
-    </section>
-
-    <!-- Digital Section -->
-    <section id="digital">
-        <h2>Digital Projects</h2>
-
-        <div id="3dvis" class="project">
-            <h3>3D Visualization (2025)</h3>
-            <p>Project Description: Example 3D design.</p>
-            <p>Medias Used: Blender, Rhino</p>
-            <p><a href="https://example.com" target="_blank">Link</a></p>
-        </div>
-
-        <div id="digitalphoto" class="project">
-            <h3>Digital Photography (2024)</h3>
-            <p>Project Description: Example description.</p>
-            <p>Medias Used: Photoshop, Camera</p>
-            <p><a href="https://example.com" target="_blank">Link</a></p>
-        </div>
-
-        <!-- Μπορείς να προσθέσεις και τις υπόλοιπες υποενότητες όπως Diploma Thesis, Films, Αυτί -->
-    </section>
 </main>
-
-<script>
-function showMessage(msg) {
-    alert(msg);
-}
-</script>
 
 </body>
 </html>

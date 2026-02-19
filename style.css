@@ -35,7 +35,7 @@ nav {
 .menu li a {
     text-decoration: none;
     color: black;
-    font-size: 16px;  /* Links size */
+    font-size: 18px;  /* Links size */
 }
 
 .menu li a.active,
@@ -65,7 +65,7 @@ nav {
 .submenu li a {
     display: block;
     padding: 10px;
-    font-size: 16px;  /* dropdown links size */
+    font-size: 18px;  /* dropdown links size */
 }
 
 .submenu li a:hover {
@@ -128,20 +128,20 @@ nav {
 /* Project Sections */
 .analog-projects {
     text-align: left;
-    font-size: 16px; /* info size */
+    font-size: 18px; /* info size */
     padding: 50px 20px;
 }
 
 .digital-projects {
     text-align: right;
-    font-size: 16px; /* info size */
+    font-size: 18px; /* info size */
     padding: 50px 20px;
 }
 
 /* Project Titles */
 .analog-projects h2,
 .digital-projects h2 {
-    font-size: 16px;  /* project title size */
+    font-size: 18px;  /* project title size */
     margin-bottom: 10px;
 }
 
@@ -149,5 +149,5 @@ nav {
 .project a {
     color: #0000FF;
     text-decoration: underline;
-    font-size: 16px;
+    font-size: 18px;
 }
